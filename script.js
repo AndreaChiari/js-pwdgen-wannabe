@@ -19,19 +19,19 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21
 
 // prendo il mio elemento da HTML
 const targetElement = document.getElementById('target');
-console.log('targetElement')
+console .log('targetElement')
 
 // imposto una variabile con un prompt per chiedere il nome e associare quindi quest'ultimo alla variabile
 const firstName= prompt("qual'e' il tuo nome?" , 'andrea')
-console.log('firstName')
+console .log('firstName')
 
 // imposto una variabile con un prompt per chiedere il cognome e associare quindi quest'ultimo alla variabile
 const Surname= prompt("qual'e' il tuo cognome?" , 'chiari')
-console.log('Surname')
+console .log('Surname')
 
 // imposto una variabile con un prompt per chiedere il colore preferito e associare quindi quest'ultimo alla variabile
 const favColor= prompt("qual'e' il tuo colore preferito?" , 'blu')
-console.log('favColor')
+console .log('favColor')
 
 
 // stampo il risultato sull'HTML unendo le variabili precendenti e aggiungendo 21
@@ -42,4 +42,4 @@ a questa variabile "alternative" e quindi spostare la variabile che segue questo
 */
 
 const alternative= ('21')
-console.log('alternative')
+console .log('alternative')
